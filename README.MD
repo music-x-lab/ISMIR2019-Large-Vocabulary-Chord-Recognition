@@ -2,6 +2,10 @@
 
 This is the official repo for the ISMIR 2019 paper [Large-Vocabulary Chord Transcription via Chord Structure Decomposition](https://archives.ismir.net/ismir2019/paper/000078.pdf).
 
+Screenshot for audio chord recognition (visualized via [Sonic Visualizer](https://www.sonicvisualiser.org/)): 
+![image](https://user-images.githubusercontent.com/13694510/230480932-6df239fc-bb0c-4dbf-9399-ab79b3d82587.png)
+
+
 ## Chord recognition with pretrained model
 
 After installing all the dependencies, run the following code:
