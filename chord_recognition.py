@@ -35,6 +35,6 @@ if __name__ == '__main__':
     elif len(sys.argv) == 4:
         chord_recognition(sys.argv[1], sys.argv[2], sys.argv[3])
     else:
-        print('Usage: main.py path_to_audio_file path_to_output_file [chord_dict=submission]')
+        print('Usage: chord_recognition.py path_to_audio_file path_to_output_file [chord_dict=submission]')
         print('\tChord dict can be one of the following: full, ismir2017, submission, extended')
         exit(0)
