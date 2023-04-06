@@ -1,6 +1,26 @@
 # ISMIR Chord Recognition Code
 
-Warning: uncleaned code
+## Chord recognition with pretrained model
+
+After installing all the dependencies, run the following code:
+
+```
+python3 chord_recognition.py path_to_audio_file path_to_output_file [chord_dict]
+```
+
+For example,
+
+```
+python3 chord_recognition.py example.mp3 example_chord.lab
+```
+
+Here, ``chord_dict`` is an optional parameter that tells the HMM which chord dictionary to use for decoding. Potential options are:
+
+* submission: the default value (recommended to use). It is the chord dictionary we used for ISMIR 2019 submission.
+* ismir2017: the chord dictionary for MIREX competition.
+* full: the list of all chords from MARL dataset. It is not tested and not recommended to use. 
+
+You may also manually adjust the chord dictionary by editing them in the folder ``data/*_chord_list.txt``.
 
 ## Training
 
@@ -28,7 +48,5 @@ just follows the error message to add some ``bool()`` to index tensors.
 ## Testing
 
 Run ``chordnet_ismir_naive_eval.py`` for testing.
-
-More docs TBA!
 
 Junyan
