@@ -1,4 +1,6 @@
-# ISMIR Chord Recognition Code
+# Large-Vocabulary Chord Transcription via Chord Structure Decomposition
+
+This is the official repo for the ISMIR 2019 paper [Large-Vocabulary Chord Transcription via Chord Structure Decomposition](https://archives.ismir.net/ismir2019/paper/000078.pdf).
 
 ## Chord recognition with pretrained model
 
