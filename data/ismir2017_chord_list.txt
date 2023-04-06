@@ -1,0 +1,15 @@
+C:min
+C:maj
+C:dim
+C:aug
+C:min6
+C:maj6
+C:min7
+C:minmaj7
+C:maj7
+C:7
+C:dim7
+C:hdim7
+C:sus2
+C:sus4
+N
