@@ -5,6 +5,11 @@ This is the official repo for the ISMIR 2019 paper [Large-Vocabulary Chord Trans
 Screenshot for audio chord recognition (visualized via [Sonic Visualizer](https://www.sonicvisualiser.org/)): 
 ![image](https://user-images.githubusercontent.com/13694510/230480932-6df239fc-bb0c-4dbf-9399-ab79b3d82587.png)
 
+## Pretrained models
+
+This repo contains the pretrained models that does not incorporate label reweighting. This model provides the best overall accuracy. However, if you want the pretrained models with label reweighting, you can download it here:
+
+https://drive.google.com/drive/u/1/folders/1y5-zTFaBliymPe7uY2MZfUAsvPzwmGBL
 
 ## Chord recognition with pretrained model
 
